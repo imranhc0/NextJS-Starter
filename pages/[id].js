@@ -6,7 +6,7 @@ import { Container, Card } from "react-bootstrap";
 import data from "./data.json";
 import styles from "../styles/Home.module.css";
 
-const about = () => {
+const About = () => {
   const route = useRouter();
   const id = route.query.id;
   const items = data.find((item) => item.id == id);
@@ -48,4 +48,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

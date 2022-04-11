@@ -50,7 +50,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          This Page Made with<code className={styles.code}>Next>JS</code>
+          This Page Made with<code className={styles.code}>Next.JS</code>
         </p>
 
         <Container fluid>
@@ -87,6 +87,7 @@ export default function Home() {
 
               {pageNumbers.map((number) => (
                 <Pagination.Item
+                  key={number}
                   active={currentPage === number}
                   onClick={() => paginate(number)}
                 >
