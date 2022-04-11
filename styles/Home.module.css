@@ -1,6 +1,14 @@
 .container {
   padding: 0 2rem;
 }
+.image{
+  border-radius: 10px;
+  transition: all .2s ease-in-out;
+}
+.image:hover{
+  border-radius: 10px;
+  transform: scale(1.1);
+}
 
 .main {
   min-height: 100vh;
